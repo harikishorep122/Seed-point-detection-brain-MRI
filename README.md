@@ -56,24 +56,24 @@ estimated value , The value obtained from the network is to be in the range of z
 The estimated seed point obtained is within an error limit of + or - 3 pixels or less from the
 ground truth given , which shows high accuracy and fast convergence of the model
 
-<img src="images/loss.jpeg>
+<img src="images/loss.jpg>
           
-<img src="images/accuracy.jpeg>
+<img src="images/accuracy.jpg>
 
 ### Covergence curve
 ## Results
 
-<img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpeg>
+<img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpg>
           
-<img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpeg>
+<img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpg>
 
-<img src="images/Results 3 - Seed point detection in medical imaging (brain tumor).jpeg>
+<img src="images/Results 3 - Seed point detection in medical imaging (brain tumor).jpg>
    
-<img src="images/Results 4 - Seed point detection in medical imaging (brain tumor).jpeg>
+<img src="images/Results 4 - Seed point detection in medical imaging (brain tumor).jpg>
 
 ## Validation using standard Techniques
 The True positive is considered as the point that lies in +or- 15 pixels around the ground
 truth, The False positive is considered as a point which lies outside the Region of intrest,
 The test is done on the prediction of the test images , A graph is plotted between
 normalized True positive and False positive.
-<img src="images/ROC curve.jpeg>
+<img src="images/ROC curve.jpg>
