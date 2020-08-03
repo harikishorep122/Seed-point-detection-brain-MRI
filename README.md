@@ -59,19 +59,11 @@ ground truth given , which shows high accuracy and fast convergence of the model
 <img src="images/loss.jpeg"> 
 <img src="images/accuracy.jpeg">
 
-### Covergence curve
 ## Results
-<div style="display:flex">
-     <div style="flex:1;padding-right:5px;">
-          <img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpeg">
-     </div>
-     <div style="flex:1;padding-left:5px;">
-          <img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpeg">
-     </div>
-</div>
 
+<img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpeg">
+<img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpeg">
 <img src="images/Results 3 - Seed point detection in medical imaging (brain tumor).jpeg">
-
 <img src="images/Results 4 - Seed point detection in medical imaging (brain tumor).jpeg">
 
 ## Validation using standard Techniques
