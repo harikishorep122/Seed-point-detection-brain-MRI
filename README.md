@@ -6,7 +6,9 @@ Seed point is assumed to be a point which points out a region of high probabilit
 may be present in a slice of an MRI scan. Below is a ground truth image pointing out a tumor in
 the brain tissue , Where the red dot is known as the seed point , which indicates the presence of
 a tumor.
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/Ground%20truth%20-%20Seed%20point%20detection%20in%20medical%20imaging%20(brain%20tumor).jpg">
+
+<img src="images/Ground truth - Seed point detection in medical imaging (brain tumor).jpg">
+
 ## METHOD 
 ### Data preprocessing:
 Before training the data is normalized to fit a pixel range value of zero to one and the ground
@@ -52,18 +54,26 @@ estimated value , The value obtained from the network is to be in the range of z
  
 ## Prediction and Convergence:
 The estimated seed point obtained is within an error limit of + or - 3 pixels or less from the
-ground truth given , which shows high accuracy and fast convergence of the m
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/loss.jpeg>
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/accuracy.jpeg>
+ground truth given , which shows high accuracy and fast convergence of the model
+
+<img src="images/loss.jpeg>
+          
+<img src="images/accuracy.jpeg>
+
 ### Covergence curve
 ## Results
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/Results%201%20-%20Seed%20point%20detection%20in%20medical%20imaging%20(brain%20tumor).jpeg>
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/Results%202%20-%20Seed%20point%20detection%20in%20medical%20imaging%20(brain%20tumor).jpeg>
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/Results%203%20-%20Seed%20point%20detection%20in%20medical%20imaging%20(brain%20tumor).jpeg>
-<img src="https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/Results%204%20-%20Seed%20point%20detection%20in%20medical%20imaging%20(brain%20tumor).jpeg>
+
+<img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpeg>
+          
+<img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpeg>
+
+<img src="images/Results 3 - Seed point detection in medical imaging (brain tumor).jpeg>
+   
+<img src="images/Results 4 - Seed point detection in medical imaging (brain tumor).jpeg>
+
 ## Validation using standard Techniques
 The True positive is considered as the point that lies in +or- 15 pixels around the ground
 truth, The False positive is considered as a point which lies outside the Region of intrest,
 The test is done on the prediction of the test images , A graph is plotted between
 normalized True positive and False positive.
-![ROC curve](https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/ROC%20curve.jpeg)
+<img src="images/ROC curve.jpeg>
