@@ -7,4 +7,4 @@ may be present in a slice of an MRI scan. Below is a ground truth image pointing
 the brain tissue , Where the red dot is known as the seed point , which indicates the presence of
 a tumor.
 
-![groud truth](Ground truth - Seed point detection in medical imaging (brain tumor).jpg)
+![groud truth](https://github.com/harikishorep122/Seed-point-detection-brain-MRI/blob/master/Ground%20truth%20-%20Seed%20point%20detection%20in%20medical%20imaging%20(brain%20tumor).jpg)
