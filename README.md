@@ -56,19 +56,22 @@ estimated value , The value obtained from the network is to be in the range of z
 The estimated seed point obtained is within an error limit of + or - 3 pixels or less from the
 ground truth given , which shows high accuracy and fast convergence of the model
 
-<img src="images/loss.jpeg">
-          
+<img src="images/loss.jpeg"> 
 <img src="images/accuracy.jpeg">
 
 ### Covergence curve
 ## Results
-
-<img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpeg">
-          
-<img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpeg">
+<div style="display:flex">
+     <div style="flex:1;padding-right:5px;">
+          <img src="images/Results 1 - Seed point detection in medical imaging (brain tumor).jpeg">
+     </div>
+     <div style="flex:1;padding-left:5px;">
+          <img src="images/Results 2 - Seed point detection in medical imaging (brain tumor).jpeg">
+     </div>
+</div>
 
 <img src="images/Results 3 - Seed point detection in medical imaging (brain tumor).jpeg">
-   
+
 <img src="images/Results 4 - Seed point detection in medical imaging (brain tumor).jpeg">
 
 ## Validation using standard Techniques
